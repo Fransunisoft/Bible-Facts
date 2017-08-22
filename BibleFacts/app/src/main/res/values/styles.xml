@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BibleFactsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/ActionBar.Solid.BibleFacts</item>
+        <item name="android:textColor">#0d47a1</item>
+    </style>
+
+    <style name="splashScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/background4</item>
+    </style>
+
+    <style name="ActionBar.Solid.BibleFacts"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/actionbarshape</item>
+        <item name="android:icon">@drawable/bible2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style
+        name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>

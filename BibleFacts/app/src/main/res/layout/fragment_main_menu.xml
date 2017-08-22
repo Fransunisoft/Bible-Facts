@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/cool_backdrops1"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/main"
+            android:text="@string/main"
+            android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+            android:textColorHighlight="#512DA8"
+            android:padding="15dip"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:typeface="sans">
+
+        </TextView>
+
+        <Button android:id="@+id/viewbtn"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="@drawable/buttonshape"
+            android:text="@string/view_facts"
+            android:textColor="#0587d9"
+            android:shadowColor="#A8A8A8"
+            android:textSize="27sp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:gravity="center"
+            android:layout_below="@+id/main"
+            android:layout_alignLeft="@+id/miraclesbtn"
+            android:layout_alignStart="@+id/miraclesbtn" />
+
+        <Button android:id="@+id/miraclesbtn"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="@drawable/buttonshape"
+            android:text="@string/miracles"
+            android:textColor="#0587d9"
+            android:shadowColor="#A8A8A8"
+            android:textSize="27sp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginTop="65dp"
+            android:gravity="center"
+            android:layout_below="@+id/main"
+            android:layout_alignLeft="@+id/parablesbtn"
+            android:layout_alignStart="@+id/parablesbtn" />
+
+        <Button android:id="@+id/parablesbtn"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="@drawable/buttonshape"
+            android:text="@string/parables_of_jesus"
+            android:textColor="#0587d9"
+            android:shadowColor="#A8A8A8"
+            android:textSize="27sp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginTop="130dp"
+            android:gravity="center"
+            android:layout_below="@+id/main"
+            android:layout_alignLeft="@+id/learnbtn"
+            android:layout_alignStart="@+id/learnbtn" />
+
+        <Button
+            android:id="@+id/learnbtn"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="145dp"
+            android:textStyle="bold"
+            android:background="@drawable/buttonshape"
+            android:text="@string/learn_more"
+            android:textColor="#0587d9"
+            android:textSize="27sp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:gravity="center"
+            android:layout_below="@+id/viewbtn"
+            android:layout_alignLeft="@+id/about"
+            android:layout_alignStart="@+id/about" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:text="@string/action_about"
+            android:textColor="#0587d9"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:gravity="center"
+            android:onClick="open1"
+            android:layout_below="@+id/learnbtn"
+            android:layout_alignLeft="@+id/exit"
+            android:layout_alignStart="@+id/exit"
+            android:layout_marginTop="16dp" />
+
+
+        <Button
+            android:id="@+id/exit"
+            android:text="@string/exit"
+            android:textColor="#0587d9"
+            android:textSize="27sp"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:onClick="open"
+            android:textStyle="bold"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_below="@+id/about"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>
+

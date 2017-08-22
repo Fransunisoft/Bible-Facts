@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cool2">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:transitionGroup="false"
+        android:focusableInTouchMode="false"
+        android:focusable="false">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:textSize="3sp"
+            tools:context="com.unisoft.biblefacts.LearnMore$PlaceholderFragment">
+
+            <TableRow
+                android:id="@+id/tableRow0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:gravity="center"
+                    android:text="MIRACLES OF JESUS"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/TextView00"
+                    android:text="S/N"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView000"
+                    android:gravity="center_horizontal"
+                    android:text="DESCRIPTION"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView0000"
+                    android:gravity="center_horizontal"
+                    android:text="LOCATION"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView00000"
+                    android:gravity="center_horizontal"
+                    android:text="SCRIPTURE"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:text="1"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:gravity="center_horizontal"
+                    android:text="Joseph's Vision"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:gravity="center_horizontal"
+                    android:text="Nazareth"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:gravity="center_horizontal"
+                    android:text="Mt. 1:20-25"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:text="2"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:gravity="center_horizontal"
+                    android:text="Birth of Jesus"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:gravity="center_horizontal"
+                    android:text="Bethlehem"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:gravity="center_horizontal"
+                    android:text="Lu. 2:1-7"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:text="3"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:gravity="center_horizontal"
+                    android:text="First Miracle at Cana"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:gravity="center_horizontal"
+                    android:text="Cana"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:gravity="center_horizontal"
+                    android:text="John 2:1-11"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:text="4"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of the Nobles's son"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:gravity="center_horizontal"
+                    android:text="Cana"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:gravity="center_horizontal"
+                    android:text="John 4:46-54"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:text="5"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:gravity="center_horizontal"
+                    android:text="Miracles at pool of Bethesda"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:gravity="center_horizontal"
+                    android:text="Jerusalem"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:gravity="center_horizontal"
+                    android:text="John 5:1-47"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:text="6"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:gravity="center_horizontal"
+                    android:text="Miracles draught of fishes"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:gravity="center_horizontal"
+                    android:text="Lu. 5:1-11"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:text="7"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of a demoniac"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:gravity="center_horizontal"
+                    android:text="Mr 1:23-27 Lu 4:33-36"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:text="8"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of Peter's mother-in-law"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 8:14, 15 Mr 1:29-31 Lu 4:38,39"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:text="9"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of many sick and diseased"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView93"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 8:16,27 Mr 1:32-33 Lu 4:40,41"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:text="10"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView102"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of a leper"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:gravity="center_horizontal"
+                    android:text="Galilea"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView104"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 8:1-4 Mr 1:40-45 Lu 5:12-16"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:text="11"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of a paralytic"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView114"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 9:1-8 Mr 2:1-12 Lu 5:18-26"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:text="12"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView122"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of the man with a withered hand"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView124"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 12:9-14 Mr 3:1-6 Lu 6:6-11"
+                    android:textSize="12sp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView131"
+                    android:text="13"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView132"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of the centurion's servant"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView133"
+                    android:gravity="center_horizontal"
+                    android:text="Hill of Hattin"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView134"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 8:5-13 Lu 7:1-10"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView141"
+                    android:text="14"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView142"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Raising of the son odf the Widow of Nain"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView143"
+                    android:gravity="center_horizontal"
+                    android:text=""
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView144"
+                    android:gravity="center_horizontal"
+                    android:text="Lu 7:11-17"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView151"
+                    android:text="15"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView152"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of a demoniac"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView153"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView154"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 12:22"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView161"
+                    android:text="16"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView162"
+                    android:gravity="center_horizontal"
+                    android:text="Christ miraculously calms the storm"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView163"
+                    android:gravity="center_horizontal"
+                    android:text="Sea of Gennesaret"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView164"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 8:24:37 Mr 4:37-41 Lu 8:23-25"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView171"
+                    android:text="17"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView172"
+                    android:gravity="center_horizontal"
+                    android:text="Miracles involving the Gergesene demoniacs"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView173"
+                    android:gravity="center_horizontal"
+                    android:text="Gergesa"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView174"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 8:28:34 Mr 5:1-15 Lu 8:27-35"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView181"
+                    android:text="18"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView182"
+                    android:gravity="center_horizontal"
+                    android:text="Miracle: Woman with issue of blood"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView183"
+                    android:gravity="center_horizontal"
+                    android:text="Gennesaret"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView184"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 9:20:22 Mr 5:22 Lu 8:41"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView191"
+                    android:text="19"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView192"
+                    android:gravity="center_horizontal"
+                    android:text="Miracle: Jairus' daughter"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView193"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView194"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 9:18,23-25 Mr 5:22 Lu 8:41"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView201"
+                    android:text="20"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView202"
+                    android:gravity="center_horizontal"
+                    android:text="Miracle: Two blind men"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView203"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView204"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 9:27-30"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView211"
+                    android:text="21"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView212"
+                    android:gravity="center_horizontal"
+                    android:text="Miracle: Dump Spirit"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView213"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView214"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 9:32,33"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView221"
+                    android:text="22"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView222"
+                    android:gravity="center_horizontal"
+                    android:text="Feeding of the five thousand"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView223"
+                    android:gravity="center_horizontal"
+                    android:text="Bethsaida"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView224"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 14:13-21 Mr 6:30-40 Lu 9:12-17 John 6:1-13"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView231"
+                    android:text="23"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView232"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous walking on the water"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView233"
+                    android:gravity="center_horizontal"
+                    android:text="Lake Gennesaret"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView234"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 14:25 Mr 6:48 John 6:19"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView241"
+                    android:text="24"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView242"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing the daughter of the Syrophoenician woman"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView243"
+                    android:gravity="center_horizontal"
+                    android:text="Phoenicia"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView244"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 15:25-29 Mr 7:24-30"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView251"
+                    android:text="25"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView252"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of the dead and dumb man"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView253"
+                    android:gravity="center_horizontal"
+                    android:text="Tyre, Sidon"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView254"
+                    android:gravity="center_horizontal"
+                    android:text="Mr 7:32"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView261"
+                    android:text="26"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView262"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of many sick persons"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView263"
+                    android:gravity="center_horizontal"
+                    android:text="Decapolis"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView264"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 15:30,31"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView271"
+                    android:text="27"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView272"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Feeding of the four thousand"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView273"
+                    android:gravity="center_horizontal"
+                    android:text="Gennesaret"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView274"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 15:32-39 Mr 8:1-9"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView281"
+                    android:text="27"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView282"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Feeding of the four thousand"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView283"
+                    android:gravity="center_horizontal"
+                    android:text="Gennesaret"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView284"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 15:32-39 Mr 8:1-9"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView291"
+                    android:text="29"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView292"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of the Blind man"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView293"
+                    android:gravity="center_horizontal"
+                    android:text="Bethsaida"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView294"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 8:23-27"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView301"
+                    android:text="30"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView302"
+                    android:gravity="center_horizontal"
+                    android:text="The transfiguration"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView303"
+                    android:gravity="center_horizontal"
+                    android:text="Mt. Hermon"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView304"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 17:1-8 Mr 9:2-8 Lu 9:28-36"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView311"
+                    android:text="31"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView312"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing the demoniac child"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView313"
+                    android:gravity="center_horizontal"
+                    android:text="Mt. Hermon"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView314"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 17:14-21 Mr 9:14-27 Lu 9:37-42"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView321"
+                    android:text="32"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView322"
+                    android:gravity="center_horizontal"
+                    android:text="Miracle: The stater in the fish's mouth"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView323"
+                    android:gravity="center_horizontal"
+                    android:text="Capernaum"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView324"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 17:27"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView331"
+                    android:text="33"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView332"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of the Blind man and discourses"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView333"
+                    android:gravity="center_horizontal"
+                    android:text="Jerusalem"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView334"
+                    android:gravity="center_horizontal"
+                    android:text="Joh 9:1"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView341"
+                    android:text="34"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView342"
+                    android:gravity="center_horizontal"
+                    android:text="He miraculously heals the mute demoniac"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView343"
+                    android:gravity="center_horizontal"
+                    android:text="Judea"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView344"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 12:22-45 Lu 11:14"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView351"
+                    android:text="35"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView352"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of a woman with an infirmity"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView353"
+                    android:gravity="center_horizontal"
+                    android:text="Judea"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView354"
+                    android:gravity="center_horizontal"
+                    android:text="Lu 13:10-17"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView361"
+                    android:text="36"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView362"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of the man with the dropsy"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView363"
+                    android:gravity="center_horizontal"
+                    android:text="Peraea"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView364"
+                    android:gravity="center_horizontal"
+                    android:text="Lu 14:1-6"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView371"
+                    android:text="37"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView372"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Resurrection of Lazarus"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView373"
+                    android:gravity="center_horizontal"
+                    android:text="Bethany"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView374"
+                    android:gravity="center_horizontal"
+                    android:text="Joh 11:17-46"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView381"
+                    android:text="38"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView382"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Resurrection of Lazarus"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView383"
+                    android:gravity="center_horizontal"
+                    android:text="Bethany"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView384"
+                    android:gravity="center_horizontal"
+                    android:text="Joh 11:17-46"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView391"
+                    android:text="39"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView392"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of the ten lepers"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView393"
+                    android:gravity="center_horizontal"
+                    android:text="Borders of Samaria"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView394"
+                    android:gravity="center_horizontal"
+                    android:text="Lu 17:12-19"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView401"
+                    android:text="40"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView402"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Healing of Blind bartimaeus"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView403"
+                    android:gravity="center_horizontal"
+                    android:text="Near Jericho"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView404"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 20:29-34 Mr 10:46-52 Lu 18:35-43"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView411"
+                    android:text="41"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView412"
+                    android:gravity="center_horizontal"
+                    android:text="Miraculous Withering of the barren fig-tree"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView413"
+                    android:gravity="center_horizontal"
+                    android:text="Mt. of Olives"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView414"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 21:45 Mr 11:12-14"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView421"
+                    android:text="42"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView422"
+                    android:gravity="center_horizontal"
+                    android:text="Christ miraculously heals the ear of Malchus"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView423"
+                    android:gravity="center_horizontal"
+                    android:text="Gethsemane"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView424"
+                    android:gravity="center_horizontal"
+                    android:text="Lu 22:51"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView431"
+                    android:text="43"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView432"
+                    android:gravity="center_horizontal"
+                    android:text="Darkness over all the land"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView433"
+                    android:gravity="center_horizontal"
+                    android:text="Golgotha"
+                    android:textSize="12sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView434"
+                    android:gravity="center_horizontal"
+                    android:text="Mt 27:45 Mr 15:33 Lu 23:44,45"
+                    android:textSize="12sp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow0000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"></TableRow>
+        </TableLayout>
+
+    </ScrollView>
+</ScrollView>
